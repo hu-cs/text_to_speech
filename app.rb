@@ -14,10 +14,8 @@ post '/download' do
  text.to_file "en"
 
  if text.length >= 21
- 	puts "if part"
  	filename = text[0..20]
  else
- 	"puts else part.. "
  	filename = text
  end
 
