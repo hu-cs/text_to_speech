@@ -1,4 +1,4 @@
-require 'rubygems'
+# require 'rubygems'
 require 'sinatra'
 require 'tts' # https://github.com/c2h2/tts
 
