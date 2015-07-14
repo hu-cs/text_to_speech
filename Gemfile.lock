@@ -1,5 +1,6 @@
-PATH
-  remote: vendor/tts
+GIT
+  remote: git://github.com/tokhi/tts.git
+  revision: 9c43ed25b0123c1caa9d871b8046fc07cdedab3f
   specs:
     tts (0.5.0)
 

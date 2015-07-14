@@ -1,5 +1,3 @@
 gem "sinatra"
 # gem "tts"
-# to install the tts gem locally
-# gem build GEMNAME.gemspec
-# gem install gemname-version.gem
+gem 'tts', :git => 'git://github.com/tokhi/tts.git'
