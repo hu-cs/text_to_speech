@@ -1,3 +1,5 @@
 gem "sinatra"
 # gem "tts"
-gem "tts", :path => "vendor/tts"
+# to install the tts gem locally
+# gem build GEMNAME.gemspec
+# gem install gemname-version.gem
