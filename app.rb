@@ -11,7 +11,7 @@ post '/download' do
  puts "say it!"
  text = params[:text].tr("`", "")
  puts text
- text.to_file "en"
+ text.to_file params[:lang]
 
  if text.length >= 21
  	filename = text[0..20]

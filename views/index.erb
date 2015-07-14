@@ -75,6 +75,13 @@
         <form action="/download" method="post">
 		  <div class="form-group">
 		  <label for="text">Paste your text:</label>
+		  <select name="lang" class="form-control">
+			  <option value="en">English</option>
+			  <option value="fr">French</option>
+			  <option value="it">Italian</option>
+			  <option value="zh">Chinnese</option>
+			  <option value="ar">Arabic</option>
+		  </select>
 		  <textarea class="form-control" rows="5" id="text" name="text"></textarea>
 		</from>
 		</div>
@@ -84,6 +91,8 @@
                   <div class="btn-group" required="required">
                         <button class="btn" href="#"><i class="glyphicon glyphicon-volume-up"></i> Listen</button>
                         <button class="btn" href="#"><i class="glyphicon glyphicon-arrow-down"></i> Download mp3</button>
+
+                        
                         
                     </div>
                 </div>
